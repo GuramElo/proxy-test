@@ -2,9 +2,9 @@ const http = require('http');
 const httpProxy = require('http-proxy');
 
 // CONFIGURATION
-const TARGET = 'https://qa-casino-api.crocobet.com';
+const TARGET = 'https://qa-back-cms.crocobet.com';
 const FAKE_ORIGIN = 'https://crocobet.com';
-const PORT = 3014;
+const PORT = 3015;
 
 const proxy = httpProxy.createProxyServer({
     target: TARGET,

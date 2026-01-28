@@ -4,6 +4,7 @@
   "main": "jigo.js",
   "scripts": {
     "start": "node jigo.js",
+    "start1": "node jigo1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
